@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f6cb23b-d5ff-439a-8c17-d7199978511d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/mynginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/mynginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
-    </list>
+    <list default="true" id="6f6cb23b-d5ff-439a-8c17-d7199978511d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,26 +54,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mynginx.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mynginx.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uwsgi.ini" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uwsgi.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,6 +104,7 @@
         <option value="$PROJECT_DIR$/static/upload/newaddmusic/printssql.py" />
         <option value="$PROJECT_DIR$/mynginx.conf" />
         <option value="$PROJECT_DIR$/uwsgi.ini" />
+        <option value="$PROJECT_DIR$/gunicorn_config.py" />
       </list>
     </option>
   </component>
@@ -138,7 +117,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="431" />
     <option name="y" value="155" />
     <option name="width" value="513" />
@@ -156,32 +135,6 @@
             <path>
               <item name="jade1" type="b2602c69:ProjectViewProjectNode" />
               <item name="jade1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jade1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jade1" type="462c0819:PsiDirectoryNode" />
-              <item name="jade1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jade1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jade1" type="462c0819:PsiDirectoryNode" />
-              <item name="myweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jade1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jade1" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jade1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jade1" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jade1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jade1" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,8 +265,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1916" height="864" extended-state="7" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1849" height="864" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002767" side_tool="true" weight="0.3432836" />
@@ -321,10 +273,10 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" weight="0.2211669" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32700136" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2353255" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2713704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24405092" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.1280683" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.13281682" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -559,6 +511,13 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gunicorn_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
