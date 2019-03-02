@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>JadeJade</title>
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+
+</head>
+<body>
+
+<div id="box">
+    <h1 id="title">JadeJade</h1>
+    <ul class="ms_list">
+        {% for music in musics %}
+            <li class="themusic">
+                <p data-title="{{ music.title }}" data-src="{{ music.thesrc }}">{{ music.title }}<span class="toplay">播放</span></p>
+            </li>
+        {% endfor %}
+
+    </ul>
+
+    <div id="foot">
+
+                <p class="now_play">正在播放：</p>
+                <p class="ms_title"></p>
+
+                <div class="the_audio">
+                            <audio controls>
+                    <source src="/static/upload/index/daogu.mp3" type="audio/mpeg" class="ms_src">
+                    您的浏览器不支持 audio 元素。
+                </audio>
+                </div>
+
+
+    </div>
+</div>
+    <script type="application/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+     <script type="application/javascript" src="{% static 'js/index.js' %}"></script>
+</body>
+</html>
