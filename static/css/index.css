@@ -5,12 +5,13 @@
 {
     width: 100%;
     height: 100%;
-
+    /*background-color: ghostwhite;*/
 
 }
 
 #foot
 {
+    background-color: black;
     position: fixed;
     bottom: 5px;
     left: 50%;
@@ -31,19 +32,21 @@ ul
     margin: 0;
     padding: 0;
     overflow: auto;
-    border: 1px solid black;
+    border: 1px solid pink;
+    background-color: ghostwhite;
 }
 li
 {
-    border: #2E2D3C solid 1px;
+    border: pink solid 1px;
 }
 .ms_list p
 {
     text-align: center;
-    color: black;
+    color: deeppink;
 }
 .toplay
 {
     float: right;
     cursor: pointer;
+    color: aquamarine;
 }
